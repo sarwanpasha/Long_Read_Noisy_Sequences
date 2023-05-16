@@ -14,4 +14,7 @@ To compute classification results, you can run ```classification.py``` python fi
 
 To compute robustness results, you can run ```robustness.py``` python file
 
+The code for String Kernel is taken from the following repository
+https://github.com/sarwanpasha/Approximate_Kernel
+
 To run the code, you just need to update the dataset path in the python files and it will compute the embeddings.
