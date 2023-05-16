@@ -1,25 +1,17 @@
 # Assessing the Resilience of Machine Learning Models on SARS-CoV-2 Genome Sequences Generated Using Long-read Specific Errors: A Study
 
-Code for Spike2Vec is taken from the following repository
-https://github.com/sarwanpasha/Spike2Vec
+The code for OHE-based embedding generation is given in ```OHE_Encoding.py``` python file
 
-The code for PSSM2Vec is given in ```PSSM2Vec_vector_generation.ipynb``` notebook
+The code for WDGRL-based embedding generation is given in ```wdgrl_generation.py``` python file
 
-The code for Min2Vec is given in ```Min2Vec_and_tSNE_logic_code.ipynb``` notebook
+The code for Spaced k-mers-based embedding generation is given in ```spaced_kmers_generation.py``` python file
 
-Our dataset is available on Google Drive
-https://drive.google.com/drive/folders/1adtr8FImIYTqxM20wgInRqIZ8EJY4HVS?usp=sharing
+The code for Weighted k-mers-based embedding generation is given in ```Weighted_kmers_IDF.py``` python file
 
-To run the code, you just need to update the dataset path in the notebooks and it will compute the results.
+The code for PWM-based embedding generation is given in ```PWM_kmers.py``` python file
 
-If you want to use the code or dataset, please cite our paper
+To compute classification results, you can run ```classification.py``` python file
 
+To compute robustness results, you can run ```robustness.py``` python file
 
-```
-@article{ali2022benchmarking,
-  title={Benchmarking Machine Learning Robustness in Covid-19 Genome Sequence Classification},
-  author={Ali, Sarwan and Sahoo, Bikram and Zelikovskiy, Alexander and Chen, Pin-Yu and Patterson, Murray},
-  journal={arXiv preprint arXiv:2207.08898},
-  year={2022}
-}
-```
+To run the code, you just need to update the dataset path in the python files and it will compute the embeddings.
